@@ -96,7 +96,7 @@ a.pure-button-primary {
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
 .home-menu.pure-menu-open {
-    background: #2d3e50;
+    background: #fff;
 }
 .pure-menu.pure-menu-open.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
@@ -106,7 +106,7 @@ a.pure-button-primary {
 }
 
 .home-menu .pure-menu-heading {
-    color: white;
+    color: #003366;
     font-weight: 400;
     font-size: 120%;
 }
@@ -116,7 +116,7 @@ a.pure-button-primary {
 }
 
 .home-menu a {
-    color: #6FBEF3;
+    color: #003366;
 }
 .home-menu li a:hover,
 .home-menu li a:focus {
@@ -211,7 +211,7 @@ a.pure-button-primary {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-    background: #2d3e50;
+    background: #003366;
     color: #aaa;
 }
 
@@ -239,10 +239,10 @@ a.pure-button-primary {
     /* We can align the menu header to the left, but float the
     menu items to the right. */
     .home-menu {
-        text-align: left;
+        text-align: center;
     }
         .home-menu ul {
-            float: right;
+            float: none;
         }
 
     /* We increase the height of the splash-container */
